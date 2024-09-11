@@ -1,0 +1,30 @@
+.secure-key-split-layout {
+    display:flex;
+    flex-direction: row;
+    padding-top:30px;
+}
+.secure-key-login-form {
+    padding: 0px 10px 0px 10px;
+    width: 55%;
+    border-right: solid  #ACACAC thin;
+}
+.secure-key-description-outer-container {
+    padding-left: 10px;
+    width: 45%;
+}
+.secure-key-description-inner-container {
+    padding-left: 20px;
+    max-width: 450px;
+}
+.secure-key-footer {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content:space-between;
+    padding-top:50px;
+}
+.secure-key-cancel .skip {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}

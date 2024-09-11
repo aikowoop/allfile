@@ -1,0 +1,1 @@
+{"object":"page","entry":[{"time":1725375819567,"id":"382864894916187","messaging":[{"sender":{"id":"26582163941430085"},"recipient":{"id":"382864894916187"},"timestamp":1725375799250,"message":{"mid":"m_LqXbgD1_UjFkN8kD8rckDae0elCmIryvXNCAhLj5urn4U0n9pStc3kMmGQVdMhnAcfqN6qFKpj8UbscnXU-RCg","text":"La racine carr\u00e9 de 2 donne combien ?"}}]}]}

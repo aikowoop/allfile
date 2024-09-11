@@ -1,0 +1,6 @@
+var startTimeinMs=new Date().getTime();var Gateway=Gateway||function(){var useImage=function(element,url){$(element).attr('original',$(element).attr('src'));$(element).attr('src',url);$(element).removeAttr('onerror');};var init=function(){};return{init:init,useImage:useImage};}();$(document).ready(function(){$("#isMobileBrowser").val("false");var isMobile=jQuery.browser.mobile;if(isMobile){$("#isMobileBrowser").val("true");}
+$('.deposit-form-submit-btn').click(function(){submitForm();});});function displaySpinner(){var modalContent="<div style=\"position: absolute;left: 48%;top: 46%;text-align: center;\">"+"		<img src=\"resources/newgateway/images/ajax-loader.gif\" style=\"width: 100px;\">"
++"			<span style=\"display: block;margin-top: 10px;color: black;\">"+"Please wait"+"</span></div>"
+$("body").append(modalContent);}
+function getCorrectedDelay(endTimeinMs,timeOutEnabled){var correctedTime=0;var totalTimeInPageMs=endTimeinMs-startTimeinMs;if(totalTimeInPageMs>=timeOutEnabled){correctedTime=0;}else if(totalTimeInPageMs<timeOutEnabled){correctedTime=timeOutEnabled-totalTimeInPageMs;}
+return correctedTime;}

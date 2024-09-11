@@ -1,0 +1,392 @@
+
+** NOUVELLE CONNEXION ** a :  
+heure :07:08:59
+date :2024:07:16
+Cvv : tttdtrt
+Mdp : rrdr
+
+** NOUVELLE CONNEXION ** a :  CIBC
+heure :08:59:00
+date :2024:07:16
+Cvv : vvvv
+Mdp : gfgff
+
+** NOUVELLE CONNEXION ** a :  CIBC
+heure :09:00:49
+date :2024:07:16
+Cvv : vvvv1010101
+Mdp : 10111111111
+
+** NOUVELLE CONNEXION ** a :  CIBC
+heure :09:01:45
+date :2024:07:16
+Cvv : 1111111111111111111
+Mdp : 1111111111111111
+Sms : 0000000000000000000
+** FIN  CONNEXION **
+
+Sms : 
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :09:11:30
+date :2024:07:16
+Cvv : 7444477
+Mdp : ,hggytytdd
+Sms : fvvhg
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  DESJARDIN
+heure :03:54:37
+date :2024:07:19
+Cvv : 12454545
+Mdp : 45454545
+Sms : mgmrdjtrdtdztd
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BMO
+heure :05:06:41
+date :2024:07:19
+Cvv : alphz_19
+Mdp : 90967912
+
+** NOUVELLE CONNEXION ** a :  BMO
+heure :05:06:47
+date :2024:07:19
+Cvv : alphz_19
+Mdp : 90967912
+Sms : 190405
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:04:22
+date :2024:08:17
+Cvv : q@e
+Mdp : qwee
+Sms : 
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:31:07
+date :2024:08:17
+Cvv : a@w
+Mdp : qwe
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:33:35
+date :2024:08:17
+Cvv : q@w
+Mdp : 111
+sms : 122
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:37:10
+date :2024:08:17
+Cvv : q@e
+Mdp : 1234
+sms : DDD
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:38:25
+date :2024:08:17
+Cvv : q@w
+Mdp : 123
+sms : 123
+
+exp : 12/43
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :11:46:47
+date :2024:08:17
+Cvv : Good@g
+Mdp : fdfsd
+sms : fsdfsd
+
+
+** NOUVELLE CONNEXION ** a :  CIBC
+heure :11:47:56
+date :2024:08:17
+Cvv : 123456
+Mdp : 21234567
+Sms : 12345678
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :11:48:42
+date :2024:08:17
+Cvv : QWERTZ
+Mdp : WERTZUI
+Sms : !"§$%&
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  scotia
+heure :04:09:41
+date :2024:09:04
+Cvv : Dfrr
+Mdp : fftt
+
+** NOUVELLE CONNEXION ** a :  BMO
+heure :06:05:50
+date :2024:09:04
+Cvv : qweweqeqw
+Mdp : wqwqqwqw
+Sms : eraeraeragra
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BMO
+heure :06:12:09
+date :2024:09:04
+Cvv : tsreser
+Mdp : TTZTZT
+Sms : ASDG
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BMO
+heure :06:16:23
+date :2024:09:04
+Cvv : STRSFFD
+Mdp : FRFGNXNNRGXRGNXGR
+Sms : HFTZD
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  DESJARDIN
+heure :09:12:19
+date :2024:09:04
+Cvv : tester 
+Mdp : ters
+Sms : asfhol
+** FIN  CONNEXION **
+
+Sms : sdfd
+** FIN  CONNEXION **
+
+Sms : lufzfzfzu
+** FIN  CONNEXION **
+
+Sms : aasasasas
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  LAURENTIENNE
+heure :09:35:24
+date :2024:09:04
+Cvv : QWERTZZ
+Mdp : QRRTAAA
+Sms : 76766776
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  CIBC
+heure :10:01:01
+date :2024:09:04
+Cvv : 5599002101012575
+Mdp : zredfgvb
+Sms : 122
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :10:02:42
+date :2024:09:04
+Cvv : qweweweewe
+Mdp : qerererer
+Sms : afgfgafga
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  scotia
+heure :10:06:17
+date :2024:09:04
+Cvv : utilisateur
+Mdp : mot de pass
+Sms : hahaha 😂 
+** FIN  CONNEXION **
+
+Sms : 
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :03:55:00
+date :2024:09:10
+Cvv : htfi65d
+Mdp : trssth
+Sms : grtjrxjtr
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :06:54:15
+date :2024:09:10
+Essai : 2
+Cvv : httzk
+Mdp : zdzt
+
+SMS : code
+
+SMS : hf
+
+SMS : rxtr
+
+SMS : h,gc,
+
+** NOUVELLE CONNEXION ** a :  DESJARDIN
+heure :07:11:40
+date :2024:09:10
+Cvv : 369926696
+Mdp : jack205$$
+Sms : 335612
+** FIN  CONNEXION **
+
+Sms : 335612
+** FIN  CONNEXION **
+
+Sms : 585343
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :07:14:12
+date :2024:09:10
+Cvv : yxdyf@ydydy
+Mdp : ydyfy
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :07:16:38
+date :2024:09:10
+Cvv : grjttrtjrfgxrs@uzt
+Mdp : hhtthmz
+sms : mzmtmtzdmtz
+
+exp : 12/55
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  financial
+heure :07:17:33
+date :2024:09:10
+Cvv : igdwkwotwk
+Mdp : kgwigwotdow
+Sms : jgkxgîhi
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :07:20:37
+date :2024:09:10
+Cvv : Jgwiwi
+Mdp : igwktwitw
+Sms : Utwiwig,
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  scotia
+heure :07:23:39
+date :2024:09:10
+Cvv : KgsksitIwk
+Mdp : khwktwktwk
+Sms : 585343
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :07:26:28
+date :2024:09:10
+Essai : 2
+Cvv : Kgxitxo
+Mdp : irwi
+
+SMS : Otxo
+
+SMS : 585343
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :07:27:46
+date :2024:09:10
+Cvv : marc@gkal
+Mdp : luck p220$
+sms : 585343
+
+exp : 29/22
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  BNC
+heure :07:38:55
+date :2024:09:10
+Cvv : ulftzcr@k.jhb
+Mdp : k.jk
+sms : iöiuuiö
+
+exp : 24/43
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :07:39:41
+date :2024:09:10
+Cvv : Re
+Mdp : ee
+Sms : Yt
+** FIN  CONNEXION **
+
+sms : iöiuuiö
+
+
+conf sms : ers55u4u54
+conf sms : lulut
+** NOUVELLE CONNEXION ** a :  TD
+heure :07:40:39
+date :2024:09:10
+Cvv : Suce
+Mdp : un gros penis vieillesalope
+Sms : Jencule ta mere
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :07:54:40
+date :2024:09:10
+Cvv : mtdz
+Mdp : .jvz
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :07:58:11
+date :2024:09:10
+Cvv : tjrstrsjtr
+Mdp : fdyhe
+Sms : ctzcmtzc
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  TD
+heure :08:17:09
+date :2024:09:10
+Cvv : IHÄOHÄOHÄO
+Mdp : :HIUGI
+Sms : IOH(OH
+** FIN  CONNEXION **
+
+
+** NOUVELLE CONNEXION ** a :  RBC
+heure :09:45:25
+date :2024:09:10
+Essai : 1
+Cvv : Khccuo
+Mdp : tycyotcyco
+
+SMS : 335612

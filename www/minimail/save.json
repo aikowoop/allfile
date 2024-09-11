@@ -1,0 +1,50 @@
+[
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": ""
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Erreur: Aucun texte retourn\u00e9 par l\\'API."
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": ""
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Erreur: Aucun texte retourn\u00e9 par l\\'API."
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": ""
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Erreur: Aucun texte retourn\u00e9 par l\\'API."
+            }
+        ]
+    }
+]

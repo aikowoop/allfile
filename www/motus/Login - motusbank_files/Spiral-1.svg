@@ -1,0 +1,53 @@
+<svg viewBox="0 0 243.9 240.7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient gradientTransform="rotate(160.1 237.7 157.7)" gradientUnits="userSpaceOnUse" id="a" x1="208.5" x2="393.5" y1="167.8" y2="167.8">
+			<stop offset="0" stop-color="#2e3191"/>
+			<stop offset=".2" stop-color="#254aa4"/>
+			<stop offset="1" stop-color="#00adee"/>
+			<stop offset="1" stop-color="#b0b0bb"/>
+			<stop offset="1" stop-color="#00adee"/>
+		</linearGradient>
+		<linearGradient gradientUnits="userSpaceOnUse" id="d" x1="68.6" x2="253.6" y1="163.3" y2="163.3">
+			<stop offset="0" stop-color="#2e3191"/>
+			<stop offset=".2" stop-color="#254aa4"/>
+			<stop offset="1" stop-color="#00adee"/>
+			<stop offset="1" stop-color="#b0b0bb"/>
+			<stop offset="1" stop-color="#00adee"/>
+		</linearGradient>
+		<linearGradient gradientTransform="rotate(67.1 243.3 195.6)" gradientUnits="userSpaceOnUse" id="e" x1="80.4" x2="265.4" y1="249.9" y2="249.9">
+			<stop offset="0" stop-color="#9bca3b"/>
+			<stop offset="1" stop-color="#279e48"/>
+		</linearGradient>
+		<linearGradient gradientTransform="rotate(160.1 237.7 157.7)" gradientUnits="userSpaceOnUse" id="b" x1="230.2" x2="388.1" y1="170.7" y2="170.7">
+			<stop offset="0" stop-color="#ec1c62"/>
+			<stop offset="1" stop-color="#7d489b"/>
+		</linearGradient>
+		<linearGradient gradientTransform="rotate(27.1 279.7 201)" gradientUnits="userSpaceOnUse" id="c" x1="37.3" x2="262" y1="217.4" y2="217.4">
+			<stop offset="0" stop-color="#ffc600"/>
+			<stop offset="1" stop-color="#f05527"/>
+		</linearGradient>
+		<linearGradient gradientTransform="rotate(-62.6 1.5 221.7)" gradientUnits="userSpaceOnUse" id="f" x1="11" x2="189.2" y1="355.8" y2="355.8">
+			<stop offset="0" stop-color="#2e3191"/>
+			<stop offset=".2" stop-color="#254aa4"/>
+			<stop offset="1" stop-color="#00adee"/>
+			<stop offset="1" stop-color="#b0b0bb"/>
+			<stop offset="1" stop-color="#00adee"/>
+		</linearGradient>
+		<linearGradient gradientUnits="userSpaceOnUse" id="g" x1="75.5" x2="273.4" y1="179.8" y2="179.8">
+			<stop offset="0" stop-color="#ec1c62"/>
+			<stop offset="1" stop-color="#7d489b"/>
+		</linearGradient>
+		<linearGradient gradientUnits="userSpaceOnUse" id="h" x1="90.8" x2="288.7" y1="162.7" y2="162.7">
+			<stop offset="0" stop-color="#ffc600"/>
+			<stop offset="1" stop-color="#f05527"/>
+		</linearGradient>
+	</defs>
+	<path d="M206 257.2a92.5 92.5 0 1 1 55.4-118.5A92.5 92.5 0 0 1 206 257.2zm-4.8-5.7a82 82 0 1 0-105-49 82 82 0 0 0 105 49z" fill="url(#a)" opacity=".8" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M161.1 70.8a92.5 92.5 0 1 1-92.5 92.5 92.5 92.5 0 0 1 92.5-92.5zm-2 9.5a82 82 0 1 0 82 82 82 82 0 0 0-82-82z" fill="url(#d)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M251 115.8a92.5 92.5 0 1 1-121.3-49 92.5 92.5 0 0 1 121.3 49zm-5.7 5.3a86.8 86.8 0 1 0-46.1 113.8 86.8 86.8 0 0 0 46-113.8z" fill="url(#e)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M192.8 244.5A79 79 0 1 1 240 143.3a79 79 0 0 1-47.3 101.2zm-4.2-5A70 70 0 1 0 99 197.8a70 70 0 0 0 89.6 41.9z" fill="url(#b)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M208.4 55.2a112.4 112.4 0 1 1-151.2 48.7 112.4 112.4 0 0 1 151.2-48.7zm-1.2 9.3a105.5 105.5 0 1 0 45.7 142 105.5 105.5 0 0 0-45.7-142z" fill="url(#c)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M86.5 153.7a89 89 0 1 1 38.7 120 89 89 0 0 1-38.7-120zm7.5 1a83.6 83.6 0 1 0 112.5-36.2A83.6 83.6 0 0 0 94 154.7z" fill="url(#f)" opacity=".1" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M174.4 80.8a99 99 0 1 1-99 99 99 99 0 0 1 99-99zM176 83a95.7 95.7 0 1 0 95.7 95.7A95.7 95.7 0 0 0 176 83z" fill="url(#g)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+	<path d="M104.8 112A99 99 0 1 1 139 247.7 99 99 0 0 1 104.7 112zm2.6-.2a95.7 95.7 0 1 0 131.2-33.1 95.7 95.7 0 0 0-131.2 33z" fill="url(#h)" style="mix-blend-mode:multiply" transform="translate(-44.8 -42.8)"/>
+</svg>

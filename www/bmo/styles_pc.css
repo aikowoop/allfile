@@ -1,0 +1,97 @@
+header {
+    background-color    : #0075be ;
+    display: flex ;
+    color: white;
+    padding:15px 0px 15px 15px ;
+
+    span {
+        padding-top: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+body{
+    background-color: #f5f5f5;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    font-family: sans-serif;
+    width:  90%;
+    margin: auto;
+
+    form {
+        display: grid;
+        background-color: white;
+        padding: 20px;
+        width: 50%;
+
+        label {
+            text-align: left;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        input[type="text"] ,  input[type="password"] {
+            border: 1px solid black;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .check {
+            display: flex;
+
+            input[type="checkbox"] {
+                height: 15px;
+                width:  15px;
+                display: inline;
+            }
+    
+        }
+        .valid {
+            text-align: center;
+
+            input[type="submit"] {
+                height: 40px;
+                width: 70%;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-radius: 30px;
+                background-color: #0075be;
+               text-align:  center;
+                border: none;
+                color: white;
+            }
+        }
+    }
+
+    .info {
+        width: 50%;
+        display: grid;
+        margin-left: 20px;
+
+        .info1{
+            background-color: white;
+            padding: 15px;
+            margin: 0px 0px 15px 0px;
+        }
+
+        .info2 {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0px 15px 0px;
+        }
+    }
+
+    
+}
+
+
+a {
+    color: #0075be;
+    font-weight: bold;
+}
+

@@ -1,0 +1,13 @@
+/* Style for recaptcha */
+.recaptcha-disclaimer {
+    padding: 2em 0 2em 0;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+.enter-passcode-for {
+    font-size: 1.1em;
+    font-weight: 700;
+}

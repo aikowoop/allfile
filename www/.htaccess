@@ -1,0 +1,8 @@
+# Assurez-vous que les erreurs 404 redirigent vers votre page 404.php
+ErrorDocument 404 /404.php
+
+# Redirige toutes les requêtes vers index.php pour un routeur frontal
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

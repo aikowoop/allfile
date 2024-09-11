@@ -1,0 +1,271 @@
+.firstHead {
+    background-color:#383838;
+    color: white;
+    text-align: end;
+    height: 50px;
+
+}
+
+.firstHead span {
+    color: white;
+    font-size: 20px;
+
+}
+
+.firstHead span span {
+    padding-right: 20px;
+    border-right: 1px solid  white;
+    
+}
+
+.secondHeader {
+    background-color: white;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+body   {
+    background-color: #f2f2f2;
+    margin: 0px;
+    
+}
+
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.formContainer {
+    display: grid;
+    background-color: white;
+}
+
+form {
+    font-family: sans-serif;
+    display: grid;
+    width: 50%;
+    padding: 20px 158px 0px 158px;
+    
+    background-color: white;
+}
+
+h1 {
+    color: #00884e;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    color: #383838;
+}
+
+
+input[type="text"] , input[type="password"] , input[type="text"]{  
+    height: 30px;
+
+}
+
+input[type="checkbox"]{  
+    height: 20px;
+    width: 20px;
+
+}
+
+.check {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    color:#00884e;
+}
+
+.valid {
+    text-align: center;
+}
+
+input[type="submit"]{  
+    height: 40px;
+    width: 202px;
+    background-color: #00884e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.formFooter {
+    display: flex;
+    padding:25px 150px 0px 0px;
+    margin: 30px 10px 0px 10px;
+    border-top: 1px solid #383838;
+    font-size: 15px;
+}
+ul {
+    margin:5px 0px 5px 0px;
+}
+.nav1 {
+    width: 252px;
+    height: 70px;
+    border-right: 1px solid #383838;
+}
+.nav2 {
+    display:flex;
+    width: 400px;
+}
+
+
+.image {
+    background-image: url("./fille.jpg");
+    height: 100vh;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 15px;
+    
+    color: rgb(247, 237, 224);
+    background-color: #292b2f;
+}
+
+.h-footer {
+    width: 80%;
+    display: flex;
+    font-size: 12px;
+    margin: auto;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ul-1 , .ul-2 , .ul-3 , .ul-4 {
+    border-right: 1px solid white;
+    padding-inline-start: 30px;
+    padding-inline-end: 20px;
+}
+
+.b-footer-1 {
+    font-family: sans-serif;
+    width: 77%;
+    display: flex;
+    font-size: 10px;
+    margin: auto;
+
+}
+
+.b-footer-2 {
+    font-family: sans-serif;
+    text-align: center;
+    width: 75%;
+    font-size: 12px;
+    margin: auto;
+}
+
+/* From Uiverse.io by kennyotsu */ 
+.notifications-container {
+    width: 320px;
+    height: auto;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  
+  .error-alert {
+    border-radius: 0.375rem;
+    padding: 1rem;
+    background-color: rgb(254 242 242);
+  }
+  
+  .error-svg {
+    color: #F87171;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .error-prompt-heading {
+    color: #991B1B;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .error-prompt-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+  }
+  
+  .error-prompt-wrap {
+    margin-top: 0.5rem;
+    color: #B91C1C;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .error-prompt-list {
+    padding-left: 1.25rem;
+    margin-top: 0.25rem;
+    list-style-type: disc;
+  }
+
+
+
+
+  /* From Uiverse.io by alexmaracinaru */ 
+button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #c4e201;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  

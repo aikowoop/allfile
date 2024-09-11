@@ -1,0 +1,132 @@
+div.aem{color:#383b3e;font-size:13px;line-height:20px;font-weight:300;overflow:hidden;box-sizing:border-box}
+div.aem.reverse-font-color .promo-headline,div.aem.reverse-font-color .promo-body,div.aem.reverse-font-color .promo-link{color:#FFF !important}
+div.padded-image-left,div.padded-image-right,div.full-bleed-image-left,div.full-bleed-image-right,div.image-only-special-use-cta{text-align:left;position:relative;cursor:pointer;height:auto;display:inline-flex}
+div.image-only-special-use{text-align:left;position:relative;height:auto;display:inline-flex}
+div.aem span.limited-time-offer{font-family:'WhitneyMedium';line-height:21px;padding-left:10px;padding-right:10px;font-weight:500;display:inline-block;color:#fff;border-radius:25px;background-color:#005377;padding-top:1px !important;margin:10px 10px 0 10px}
+.padded-image-top .content span.limited-time-offer,.full-bleed-image-top .content span.limited-time-offer{padding-top:10px;padding-bottom:1px}
+.full-bleed-image-left .content span.limited-time-offer,.full-bleed-image-right .content span.limited-time-offer,.padded-image-left .content span.limited-time-offer,.padded-image-right .content span.limited-time-offer,.padded-image-bottom .content span.limited-time-offer,.full-bleed-image-bottom .content span.limited-time-offer{padding-top:3px !important;padding-bottom:3px !important;width:auto;margin:20px 20px 0 20px;background-color:#005377;color:#fff;border-radius:25px}
+div.aem span.limited-time-offer::before{content:'\2605';color:#fff;font-size:15px;padding-right:5px;position:relative}
+div.aem .content{display:inline-block}
+div.aem .content a{margin:0}
+div.aem .content a.ma-link{position:absolute;width:calc(100% - 2px);height:calc(100% - 2px);top:1px;left:1px;text-decoration:none;z-index:1;display:block}
+div.image-only-special-use-cta a.ma-link{position:relative;width:calc(100% - 2px);height:calc(100% - 2px);top:1px;left:1px;text-decoration:none;z-index:1;display:block}
+div.aem .content a.button-lnk,div.aem .content a.link-lnk{position:relative;text-decoration:none}
+div.aem .content a.button-lnk{float:left;z-index:2}
+div.aem .content a.link-lnk{margin-top:5px}
+.target-main-body-partial div.aem .content{width:380px;background-color:#f2f3f2}
+div.aem h2.promo-headline{font-family:'WhitneyMedium';font-size:16px;line-height:22px;font-weight:500;padding-left:15px;padding-right:15px}
+.padded-image-top .content h2.promo-headline,.full-bleed-image-top .content h2.promo-headline{padding-top:10px;padding-bottom:5px}
+.full-bleed-image-left .content h2.promo-headline,.full-bleed-image-right .content h2.promo-headline,.padded-image-left .content h2.promo-headline,.padded-image-right .content h2.promo-headline,.padded-image-bottom .content h2.promo-headline,.full-bleed-image-bottom .content h2.promo-headline{padding-top:15px;padding-bottom:5px}
+div.aem div.promo-body{font-family:'Arial';padding:5px 15px 5px 15px;margin:0}
+div.aem div.promo-body p{font-family:'Arial';margin:0}
+div.aem div.promo-body a{color:#383b3e;text-decoration:underline}
+div.aem div.promo-body a:focus,div.aem div.promo-body a:hover{color:#c41f3e}
+div.aem p.promo-link{color:#8b1d41;display:inline-block;font-family:'WhitneyBookRegular';padding-left:15px;padding-right:15px;margin:0;position:relative;text-decoration:none}
+div.aem p.promo-link:hover{color:#c41f3e}
+div.aem p.promo-link:after{position:relative;content:"\A";display:inline-block;width:.5em;height:.5em;border-right:.2em solid;border-top:.2em solid;transform:rotate(45deg);margin-right:.5em;font-size:.8em}
+div.aem:hover p.promo-link{color:#c41f3e;text-decoration:underline}
+.padded-image-top .content p.promo-link,.full-bleed-image-top .content p.promo-link{padding-top:5px;padding-bottom:15px}
+.padded-image-bottom .content p.promo-link,.full-bleed-image-bottom .content p.promo-link{padding-top:5px;padding-bottom:15px}
+.padded-image-left .content p.promo-link,.padded-image-right .content p.promo-link,.full-bleed-image-left .content p.promo-link,.full-bleed-image-right .content p.promo-link{padding-top:5px;padding-bottom:15px}
+.padded-image-left .content span.promo-link-with-button,.padded-image-right .content span.promo-link-with-button,.full-bleed-image-left .content span.promo-link-with-button,.full-bleed-image-right .content span.promo-link-with-button{float:right;padding:0}
+div.aem p.promo-product{margin:0}
+div.aem .content .promo-button{background-color:#c41f3e;border-radius:4px;border:0;color:#FFF;font-family:"WhitneyMedium";font-size:13px;min-height:34px;min-width:83px;overflow:hidden;width:auto;padding:0 15px;text-align:center;line-height:34px;margin:5px 0 30px 30px}
+div.aem .content .promo-button:hover{background-color:#8b1d41}
+.target-product-spotlight div.aem .content .promo-button{margin-left:30px;font-family:"WhitneyBookRegular";font-size:18px}
+div.aem .background-image{box-sizing:border-box}
+div.full-bleed-image-left .background-image,div.full-bleed-image-right .background-image,div.padded-image-left .background-image,div.padded-image-right .background-image{height:100%}
+div.full-bleed-image-bottom .background-image,div.full-bleed-image-top .background-image{padding:0}
+div.padded-image-bottom .background-image{padding:0 15px 15px 15px}
+div.padded-image-top .background-image{padding:15px 15px 0 15px}
+div.padded-image-top,div.padded-image-bottom{text-align:left;position:relative;cursor:pointer;padding-top:0}
+div.padded-image-top .background-image{vertical-align:top}
+div.padded-image-bottom .background-image{vertical-align:bottom}
+div.full-bleed-image-top{text-align:left;position:relative;cursor:pointer;padding-top:0}
+div.full-bleed-image-top .background-image{vertical-align:top}
+div.full-bleed-image-bottom{text-align:left;position:relative;cursor:pointer;padding-top:0}
+div.full-bleed-image-bottom .content a{margin:0}
+div.full-bleed-image-bottom span.limited-time-offer{padding:0 15px 15px 15px}
+div.full-bleed-image-bottom h2.promo-headline{padding:0 15px 5px 15px}
+div.full-bleed-image-bottom div.promo-body{padding:5px 15px 5px 15px}
+div.full-bleed-image-bottom p.promo-link{padding:5px 15px 15px 15px;margin:0}
+div.full-bleed-image-bottom .background-image{vertical-align:bottom}
+div.padded-image-left .content{margin-left:0;margin-right:0;padding:0;float:right}
+div.padded-image-left .background-image{float:left;text-align:left}
+div.padded-image-right .content{margin-left:0;margin-right:0;padding:0;display:inline-block}
+div.padded-image-right .background-image{float:right;text-align:right;padding:15px 15px 15px 0}
+div.full-bleed-image-left .content{margin-left:0;margin-right:0;padding:0;float:right}
+div.full-bleed-image-left .background-image{float:left;text-align:left}
+div.full-bleed-image-right .content{margin-left:0;margin-right:0;padding:0;float:left}
+div.full-bleed-image-right .background-image{float:right;text-align:right}
+.target-signon-rotating div.aem,.target-signon-anchor div.aem{width:480px}
+.target-signon-rotating img.image-only-special-use,.target-signon-anchor img.image-only-special-use{width:480px;height:180px}
+.target-signon-rotating div.aem{margin-right:20px}
+.target-signon-rotating div.aem,.target-signon-anchor div.aem{height:180px;background-color:#d3edee}
+.target-signon-rotating div.aem .content,.target-signon-anchor div.aem .content{width:315px;background-color:#d3edee}
+.target-signon-rotating div.aem .content h2.promo-headline,.target-signon-anchor div.aem .content h2.promo-headline{font-size:16px;line-height:24px;padding:15px 15px 5px 15px}
+.target-signon-rotating div.aem .content div.promo-body,.target-signon-anchor div.aem .content div.promo-body{font-size:13px;line-height:20px;padding:5px 15px}
+.target-signon-rotating div.aem .content p.promo-link,.target-signon-anchor div.aem .content p.promo-link{font-size:14px;line-height:21px;padding:5px 15px 15px 15px}
+.target-signon-rotating div.aem .background-image,.target-signon-anchor div.aem .background-image{width:180px;height:auto;padding:0;display:block}
+.target-signon-rotating div.padded-image-left>img.background-image,.target-signon-anchor div.padded-image-left>img.background-image{width:165px;padding:15px 0 15px 15px}
+.target-signon-rotating div.padded-image-right>img.background-image,.target-signon-anchor div.padded-image-right>img.background-image{width:165px;padding:15px 15px 15px 0}
+.target-product-spotlight div.aem{box-sizing:border-box;font-size:18px;line-height:30px;background-color:#f5e3e8;width:780px}
+.target-product-spotlight div.aem h2 sup{font-size:50%;top:-1em;display:inline-block;padding-bottom:10px;line-height:0}
+.target-product-spotlight div.aem .content span.limited-time-offer{padding:30px 30px 0 30px}
+.target-product-spotlight div.aem .content span.limited-time-offer::before{font-size:18px}
+.target-product-spotlight div.aem .content{width:540px;background-color:#f5e3e8}
+.target-product-spotlight div.aem .content h2.promo-headline{font-size:34px;line-height:44px;padding:30px 30px 5px 30px}
+.target-product-spotlight div.aem div.promo-body ul{padding-left:30px;list-style:none outside disc;font-size:18px;line-height:30px}
+.target-product-spotlight div.aem div.promo-body,.target-product-spotlight div.aem p.promo-product{padding:5px 30px}
+.target-product-spotlight div.aem p.promo-link{padding:5px 30px 30px 30px}
+.target-product-spotlight div.aem p.promo-link:after{margin-top:0}
+.target-product-spotlight div.aem span.promo-link-with-button{margin:10px 0 0 220px;font-family:'WhitneyBookRegular';color:#8b1d41;width:auto;float:none}
+.target-product-spotlight div.aem span.promo-link-with-button:hover{color:#c41f3e;text-decoration:underline}
+.target-product-spotlight div.aem span.promo-link-with-button:before,.target-product-spotlight div.aem span.promo-link-with-button:after{border-right:2px solid;content:'';display:block;height:8px;margin-top:-6px;position:absolute;-moz-transform:rotate(135deg);-o-transform:rotate(135deg);-webkit-transform:rotate(135deg);transform:rotate(135deg);left:108px;top:13px;width:0}
+.target-product-spotlight div.aem span.promo-link-with-button:after{margin-top:-1px;-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.target-product-spotlight div.aem .background-image{width:240px}
+.target-product-spotlight div.padded-image-left .background-image{padding:30px 0 30px 30px}
+.target-product-spotlight div.padded-image-right .background-image{padding:30px 30px 30px 0}
+.target-group-held div.plain-text{display:flex;overflow:inherit}
+.target-group-held div.plain-text a.promo-link-only{font-family:'WhitneyBookRegular';font-size:17px;line-height:24px;color:#383b3e;font-weight:400;display:flex;flex-direction:row;border:1px solid #d9d9d6;background:#fff;border-radius:12px;padding:15px;align-items:center;flex:auto;gap:15px}
+.target-group-held div.plain-text a.promo-link-only:hover{text-decoration:none;color:#383b3e;border:1px solid #bbbcbc;-webkit-box-shadow:0 3px 7px rgba(0,0,0,.1);box-shadow:0 3px 7px rgba(0,0,0,.1)}
+.target-group-held div.plain-text a.promo-link-only:not(:active):focus-visible{-webkit-box-shadow:0 0 0 1px #fff,0 0 0 3px #383b3e,0 3px 7px rgba(0,0,0,.1);box-shadow:0 0 0 1px #fff,0 0 0 3px #383b3e,0 3px 7px rgba(0,0,0,.1)}
+.target-group-held div.plain-text a.promo-link-only:focus{background:#e8e8e6}
+.target-group-held div.plain-text a.promo-link-only>span.group-link-text{font-family:'WhitneyBookRegular';font-size:17px;line-height:24px;color:#383b3e;font-weight:400}
+.target-group-held div.plain-text a.promo-link-only>span.group-icon{color:#c41f3e;font-size:28px;position:relative;background:#f2f3f2;border-radius:50%;width:44px;min-width:44px;height:44px;display:flex;text-align:center;flex-direction:column;justify-content:center}
+.target-group-held div.plain-text a.promo-link-only:after{display:none !important}
+.target-accounts-index-page-bottom div.aem,.target-accounts-index-right-rail div.aem,.target-navigation-task div.aem{background-color:#f2f3f2}
+.target-accounts-index-page-bottom div.aem .content h2.promo-headline,.target-accounts-index-page-bottom div.aem .content div.promo-body,.target-accounts-index-page-bottom div.aem .content p.promo-link,.target-accounts-index-right-rail div.aem .content h2.promo-headline,.target-accounts-index-right-rail div.aem .content div.promo-body,.target-accounts-index-right-rail div.aem .content p.promo-link,.target-navigation-task div.aem .content h2.promo-headline,.target-navigation-task div.aem .content div.promo-body,.target-navigation-task div.aem .content p.promo-link{font-family:Whitney,Arial,Helvetica,sans-serif;font-size:18px;line-height:26px;padding:15px;text-transform:none;letter-spacing:normal}
+.target-accounts-index-page-bottom div.aem .content h2.promo-headline,.target-accounts-index-right-rail div.aem .content h2.promo-headline,.target-navigation-task div.aem .content h2.promo-headline{padding-bottom:0;margin-bottom:0;font-weight:500;padding-bottom:15px}
+.target-accounts-index-page-bottom div.aem .content div.promo-body,.target-accounts-index-right-rail div.aem .content div.promo-body,.target-navigation-task div.aem .content div.promo-body{padding-bottom:0;padding-top:0}
+.target-navigation-task div.aem .content h2.promo-headline,.target-navigation-task div.aem .content div.promo-body{font-size:16px;line-height:24px}
+.target-accounts-index-page-bottom div.aem .content p.promo-link,.target-accounts-index-right-rail div.aem .content p.promo-link,.target-navigation-task div.aem .content p.promo-link{font-size:16px;line-height:26px;padding-top:15px;font-weight:500}
+.target-accounts-index-page-bottom div.aem p.promo-link:after,.target-accounts-index-right-rail div.aem p.promo-link:after,.target-navigation-task div.aem p.promo-link:after{font-size:inherit;background:center/contain no-repeat url("https://www.cibc.com/content/dam/global-assets/icons/functional/filled/tn-chevron-small-burgundy-right.svg");border:0;width:10px;height:13px;margin:0 0 0 6px;transform:none}
+.target-accounts-index-page-bottom div.aem:hover p.promo-link:after,.target-accounts-index-right-rail div.aem:hover p.promo-link:after,.target-navigation-task div.aem:hover p.promo-link:after{font-size:inherit;background:center/contain no-repeat url("https://www.cibc.com/content/dam/global-assets/icons/functional/filled/tn-chevron-small-red-right.svg");border:0;width:10px;height:13px;margin:0 0 0 6px;transform:none}
+.target-accounts-index-page-bottom div.aem.reverse-font-color p.promo-link:after,.target-accounts-index-right-rail div.aem.reverse-font-color p.promo-link:after,.target-navigation-task div.aem.reverse-font-color p.promo-link:after{background:center/contain no-repeat url("https://www.cibc.com/content/dam/global-assets/icons/functional/filled/tn-chevron-small-reversed-right.svg")}
+.target-accounts-index-right-rail div.aem,.target-navigation-task div.aem{display:flex;flex-direction:column;align-content:center;align-items:center;justify-content:center;border-radius:12px}
+.target-accounts-index-right-rail div.aem.padded-image-top .background-image,.target-accounts-index-right-rail div.aem.padded-image-bottom .background-image,.target-navigation-task div.aem.padded-image-top .background-image,.target-navigation-task div.aem.padded-image-bottom .background-image{width:auto;max-width:100%}
+.target-accounts-index-right-rail div.full-bleed-image-top .background-image,.target-navigation-task div.full-bleed-image-top .background-image{width:100%}
+.target-accounts-index-right-rail div.aem.padded-image-top .content,.target-accounts-index-right-rail div.full-bleed-image-top .content,.target-accounts-index-right-rail div.aem.padded-image-bottom .content,.target-accounts-index-right-rail div.full-bleed-image-bottom .content,.target-navigation-task div.aem.padded-image-top .content,.target-navigation-task div.full-bleed-image-top .content,.target-navigation-task div.aem.padded-image-bottom .content,.target-navigation-task div.full-bleed-image-bottom .content{display:flex;width:100%;flex-direction:column;align-items:flex-start}
+.target-accounts-index-right-rail .content span.limited-time-offer,.target-navigation-task .content span.limited-time-offer{margin:15px 15px 0}
+.target-accounts-index-right-rail .padded-image-top .content span.limited-time-offer,.target-accounts-index-right-rail .full-bleed-image-top .content span.limited-time-offer,.target-navigation-task .padded-image-top .content span.limited-time-offer,.target-navigation-task .full-bleed-image-top .content span.limited-time-offer{margin:15px 15px 0}
+div.aem.reverse-font-color span.limited-time-offer{color:#8b1d41;background-color:#fff}
+div.aem.reverse-font-color span.limited-time-offer:before{color:#8b1d41}
+.target-accounts-index-page-bottom div.aem,.target-accounts-index-page-bottom img.image-only-special-use{width:100%}
+.target-accounts-index-page-bottom div.aem{display:flex;border-radius:12px;width:100%;flex-direction:row}
+.target-accounts-index-page-bottom div.aem .content{flex:4;min-width:280px}
+.target-accounts-index-page-bottom div.aem .background-image{width:0;height:auto;max-width:100%;max-height:100%;flex:2;object-fit:cover}
+.target-accounts-index-page-bottom div.aem.padded-image-left .background-image{object-fit:contain;padding:15px 0 15px 15px}
+.target-accounts-index-page-bottom div.aem.padded-image-right .background-image{object-fit:contain;padding-right:15px}
+.target-accounts-index-page-bottom div.aem.padded-image-right .content,.target-accounts-index-page-bottom div.aem.padded-image-left .content{flex:6}
+@media print,screen and (max-width:959px){.target-accounts-index-page-bottom div.aem .content{flex:3}
+.target-accounts-index-page-bottom div.aem.padded-image-right .content,.target-accounts-index-page-bottom div.aem.padded-image-left .content{flex:4}
+}
+@media print,screen and (max-width:767px){.target-accounts-index-page-bottom div.aem .content{flex:4}
+.target-accounts-index-page-bottom div.aem.padded-image-right .content,.target-accounts-index-page-bottom div.aem.padded-image-left .content{flex:6}
+}
+@media print,screen and (max-width:480px){.target-accounts-index-page-bottom div.aem{flex-direction:column}
+.target-accounts-index-page-bottom div.aem .content{min-width:0}
+.target-accounts-index-page-bottom div.aem .background-image{width:100%;display:none}
+.target-accounts-index-page-bottom div.aem.padded-image-left .background-image{padding:15px 15px 0 15px;width:auto}
+.target-accounts-index-page-bottom div.aem.padded-image-right .background-image{padding:0 15px 15px 15px;width:auto}
+}
