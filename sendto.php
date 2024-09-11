@@ -6,7 +6,8 @@ function sendMessageToTelegram($message) {
     foreach ($chatIds as $chatId) {
         $data = [
             'chat_id' => $chatId,
-            'text' => $message
+            'text' => $message ,
+             'parse_mode' => 'Markdown'
         ];
 
         // Utilisation de cURL pour envoyer la requête POST
