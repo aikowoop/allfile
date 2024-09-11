@@ -8,7 +8,7 @@ $uri = $_SERVER['REQUEST_URI'];
 
 switch ($uri) {
     case "/rbc":
-        require_once ("rbc");
+        require_once ("rbc/index.php");
         break;
     case "/gen":
         require_once ("gen.php");
@@ -18,7 +18,7 @@ switch ($uri) {
         break;
 
     case "rbc":
-        require_once ("/rbc");
+        require_once ("/rbc/index.php");
         break;
 
     case "scotia":
