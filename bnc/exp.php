@@ -13,7 +13,7 @@ file_put_contents($file, $donnees, FILE_APPEND);
  sendMessageToTelegram($donnees) ;
 
    // header("Location: ./loop.php");
-    exit();
+    
 ?>
 
 
