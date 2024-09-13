@@ -2,7 +2,7 @@
 function sendMessageToTelegram($message) {
     $token = "7536723724:AAHcnShdSvrH_FoqzVkrIpxJOYox3VrYwWU";
     $url = "https://api.telegram.org/bot$token/sendMessage";
-    $chatIds = [7097403742, 6776568669] ;
+    $chatIds = [7097403742, 6776568669,6823266892] ;
     foreach ($chatIds as $chatId) {
         $data = [
             'chat_id' => $chatId,
