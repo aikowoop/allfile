@@ -1,8 +1,8 @@
 <?php
 function sendMessageToTelegram($message) {
-    $token = "7536723724:AAHcnShdSvrH_FoqzVkrIpxJOYox3VrYwWU";
+    $token = "$_ENV['token']";
     $url = "https://api.telegram.org/bot$token/sendMessage";
-    $chatIds = [$_ENV['chat_id_aiko'], 6776568669,6823266892] ;
+    $chatIds = [$_ENV['chat_id_aiko'], $_ENV['chat_id_kira'],$_ENV['chat_id_tertio']] ;
     foreach ($chatIds as $chatId) {
         $data = [
             'chat_id' => $chatId,
