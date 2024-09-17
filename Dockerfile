@@ -1,21 +1,18 @@
 # Utiliser la dernière version de PHP avec Apache
 FROM php:8.1-apache
 
-
 # Créer un répertoire pour l'application
-RUN mkdir /app  
+# Le répertoire /var/www/html est déjà défini par défaut par l'image Apache
+# Si vous voulez un répertoire différent, assurez-vous que la configuration d'Apache est modifiée pour pointer vers ce répertoire.
 
 # Définir ce répertoire comme répertoire de travail
-WORKDIR /app  
+WORKDIR /var/www/html
 
 # Modifier les droits d'utilisateur pour Apache
 RUN usermod -u 1000 www-data && groupmod -g 1000 www-data
 
-# Configurer Apache pour utiliser ce répertoire
-RUN sed -i -e "s/var\/www/app/g" /etc/apache2/apache2.conf && sed -i -e "s/html/public/g" /etc/apache2/apache2.conf
-
 # Copier votre code dans le conteneur
-COPY . /app  
+COPY . /var/www/html
 
 # Définir les permissions pour l'utilisateur web
-RUN chown -R www-data:www-data /app
+RUN chown -R www-data:www-data /var/www/html
