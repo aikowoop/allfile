@@ -1,5 +1,6 @@
 # Utiliser la dernière version de PHP avec Apache
-FROM php:latest-apache  
+FROM php:8.1-apache
+
 
 # Créer un répertoire pour l'application
 RUN mkdir /app  
